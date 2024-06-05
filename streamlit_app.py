@@ -2,9 +2,6 @@
 import streamlit as st
 import os
 
-model = ChatGoogleGenerativeAI(model="gemini-pro", convert_system_message_to_human=True)
-
-
 st.set_page_config(page_title="Q&A Demo")
 
 st.header("Gemini LLM Application")
