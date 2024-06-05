@@ -2,9 +2,6 @@
 import streamlit as st
 import os
 
-
-genai.configure(api_key=os.getenv("AIzaSyCuZS6XSXH8w3CP62I4QlMu_j2pDwq0CMY"))
-
 model = ChatGoogleGenerativeAI(model="gemini-pro", convert_system_message_to_human=True)
 
 
