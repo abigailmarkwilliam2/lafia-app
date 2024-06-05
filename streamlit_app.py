@@ -1,7 +1,6 @@
 ## Conversational Q&A Chatbot with session knowledge
 import streamlit as st
 import os
-import google.generativeai as genai
 from langchain.schema import HumanMessage,SystemMessage,AIMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
