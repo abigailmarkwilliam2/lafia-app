@@ -1,5 +1,4 @@
 ## Conversational Q&A Chatbot with session knowledge
-from dotenv import load_dotenv
 load_dotenv()
 import streamlit as st
 import os
