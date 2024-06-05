@@ -1,5 +1,4 @@
 ## Conversational Q&A Chatbot with session knowledge
-load_dotenv()
 import streamlit as st
 import os
 import google.generativeai as genai
